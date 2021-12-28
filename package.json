@@ -1,6 +1,6 @@
 {
-  "homepage": "https://kaisendev.github.io",
-  "name": "web-dev",
+  "homepage": "https://kaisendev.github.io/webdev",
+  "name": "webdev",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

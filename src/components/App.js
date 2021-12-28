@@ -7,6 +7,7 @@ import Navbar from './Navbar'
 import Home from './Home'
 import Portfolio from './Portfolio'
 import About from './About'
+import NotFound from './NotFound';
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/about" element={<About />} />
-            <Route path="*" element={<Home />} />
+            <Route path="*" element={<NotFound />} />
         </Routes>
       </Router>
     </main>

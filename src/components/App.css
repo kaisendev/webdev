@@ -175,7 +175,7 @@ header {
 /* End About */
 
 
-/* Media Screens */
+/* #### Media Screens #### */
 
 @media screen and (max-width: 600px){ 
   /* Navbar */
@@ -216,4 +216,32 @@ header {
 @media screen and (max-width: 300px){ 
 
 }
+
+/* ### End Media Screens ### */
+
+/* Not Found */
+
+.notfound {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.notfound > * {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.notfound a {
+
+  margin: 0 auto;
+  color: #fff;
+  text-decoration: none;
+  background: dodgerblue;
+  border-radius: 0.2rem;
+  width: 12rem;
+  padding: 0.5rem;
+  display: block;
+
+}
+/* End Not Found */
 

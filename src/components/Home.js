@@ -14,7 +14,7 @@ const Home = () => {
             <div className="homeContent">
 
                 <section className="intro"> 
-                    <p> Ahoy there, I'm Nilo </p>  
+                    <p> Hi there, I'm Nilo </p>  
                     <Typewriter onInit={ (typewriter) => {
                         typewriter.typeString("Web Developer!")
                                     .start()

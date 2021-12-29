@@ -16,8 +16,9 @@ function App() {
         <Navbar/>
         <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/webdev" element={<Home />}/>
             <Route path="/portfolio" element={<Portfolio />} />
-            <Route path="/about" element={<About />} />
+            <Route path="/about" element={<About />} />           
             <Route path="*" element={<NotFound />} />
         </Routes>
       </Router>

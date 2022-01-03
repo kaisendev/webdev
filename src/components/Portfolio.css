@@ -1,4 +1,3 @@
-
 .projContainer {
     display: grid;
     grid-gap: 1.5rem;
@@ -8,7 +7,6 @@
     margin: 0 auto;
     padding: 1rem;
 }
-
 
 .projBox div {
   display:flex;
@@ -61,7 +59,7 @@
     width: 80%;
 }
 
-@media screen and (min-width: 600px){ 
+@media (min-width: 600px){ 
     .projContainer {
         grid-template-columns: repeat(2, 1fr);   
     }

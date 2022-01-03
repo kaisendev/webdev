@@ -1,0 +1,60 @@
+
+
+.homeContent{
+    text-align: center;
+  }
+  
+  .homeContent .logoContainer {
+    margin: 0 auto;
+  }
+  
+  .intro{
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    font-size: 1.4rem;
+  }
+  
+  .intro p:first-child {
+    margin-bottom: 1rem;
+  }
+  
+  .intro span{
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  
+  .logoContainer {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    width: 48%;
+  }
+  
+  .logoContainer img{
+    width: 100%;
+    max-width: 7.5rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    
+  }
+
+  .hideLogoDiv {
+    display:none;
+}
+  
+
+/* #### Media Screens #### */
+
+@media screen and (min-width: 600px){ 
+
+    .logoContainer {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: 1fr;
+        width: 38%;
+     }
+
+     .hideLogoDiv {
+         display:block;
+     }
+}

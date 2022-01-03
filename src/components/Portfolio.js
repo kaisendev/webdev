@@ -1,4 +1,5 @@
 import todonotes from '../images/todonotes.png'
+import './Portfolio.css'
 
 const Portfolio = () => {
     return ( 

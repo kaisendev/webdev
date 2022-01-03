@@ -1,5 +1,6 @@
 
 import Typewriter from 'typewriter-effect'
+import './Home.css'
 
 //Logo
 import js from '../images/javascript.png'
@@ -27,6 +28,7 @@ const Home = () => {
                         <img src={html} alt="HTML" />       
                         <img src={css} alt="CSS" />      
                         <img src={git} alt="Git" /> 
+                        <div className='hideLogoDiv'></div>
                         <img src={csharp} alt="CSharp" />
                         <img src={sql} alt="SQL" />     
                 </section>   

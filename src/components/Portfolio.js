@@ -12,7 +12,7 @@ const Portfolio = () => {
                 <div>
                     <span>Javascript</span> <span>Bootstrap</span>
                 </div>
-                <a className="projDiv" href="https://todonotes.surge.sh/" target="_blank" rel="noreferrer">Live View</a>
+                <a className="projDiv" href="https://todonotes.surge.sh/" target="_blank" rel="noreferrer">Live</a>
             </div>
 
             <div className="projBox">
@@ -21,7 +21,7 @@ const Portfolio = () => {
                 <div>
                     <span>React Js</span> <span>CSS</span>
                 </div>
-                <a className="projDiv" href="https://kaisendev.github.io/todoapp/" target="_blank" rel="noreferrer">Live View</a>
+                <a className="projDiv" href="https://kaisendev.github.io/todoapp/" target="_blank" rel="noreferrer">Live</a>
             </div>
 
             {/*<div className="projBox"> 

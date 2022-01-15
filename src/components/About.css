@@ -10,11 +10,18 @@
 }
 .aboutContainer {
     margin: 0 auto;
-    width: 80%;
+    width: 95%;
     text-align: center;
     align-self: center;
 }
   
 .aboutContainer p {
     margin: 1rem;
+}
+
+
+@media (min-width: 600px){ 
+    .aboutContainer {
+        width: 80%;
+    }
 }

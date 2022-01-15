@@ -33,6 +33,7 @@
     display:inline-block;
     border-radius: 0.3rem;
     margin: 1rem 0.2rem 0rem 0.2rem;
+    text-align: center;
 }
   
 .projBox a{
@@ -51,6 +52,10 @@
 .projBox > a:hover {
     color: black;
     font-weight: bold;
+}
+
+.projBox p {
+    text-align: center;
 }
 
 .upcoming {

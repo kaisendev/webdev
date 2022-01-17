@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/webdev/static/css/main.56a922e5.css",
+    "main.css": "/webdev/static/css/main.62e596d2.css",
     "main.js": "/webdev/static/js/main.d228b13d.js",
     "static/media/sql.png": "/webdev/static/media/sql.4c7f5194d37800f70579.png",
     "static/media/todo-react-img.png": "/webdev/static/media/todo-react-img.005e3eced30d8394024f.png",
     "static/media/todo-js-img.png": "/webdev/static/media/todo-js-img.4de8b397ba96a8e96f1e.png",
-    "static/media/todo-fb-img.png": "/webdev/static/media/todo-fb-img.eb7988b1734ea9ea2b2f.png",
+    "static/media/todo-fb-img.png": "/webdev/static/media/todo-fb-img.d9b4ce766d3d3608fde1.png",
     "static/media/git.png": "/webdev/static/media/git.a33dedebfd5e3be89c02.png",
     "static/media/csharp.png": "/webdev/static/media/csharp.d683d29bb589c5fda9be.png",
     "index.html": "/webdev/index.html",
-    "main.56a922e5.css.map": "/webdev/static/css/main.56a922e5.css.map",
+    "main.62e596d2.css.map": "/webdev/static/css/main.62e596d2.css.map",
     "main.d228b13d.js.map": "/webdev/static/js/main.d228b13d.js.map"
   },
   "entrypoints": [
-    "static/css/main.56a922e5.css",
+    "static/css/main.62e596d2.css",
     "static/js/main.d228b13d.js"
   ]
 }

@@ -1,12 +1,15 @@
 
 import './Portfolio.css'
+import todoFirebase from "../images/todo-fb-img.png"
+import todoReact from "../images/todo-react-img.png"
+import todoJs from "../images/todo-js-img.png"
 
 const Portfolio = () => {
     return ( 
         
         <div className="projContainer">  
             <div className="projBox">
-                <div className='todo-fb-img'></div>
+                <img className='image' src={todoFirebase} alt="" />
                 <p>Todo App</p>
                 <div>
                     <span>React Js</span> <span>Firebase</span> <span>CSS</span>
@@ -15,7 +18,7 @@ const Portfolio = () => {
             </div>     
 
             <div className="projBox">
-                <div className='todo-react-img'></div>
+                <img className='image' src={todoReact} alt="" />
                 <p>Todo App</p>
                 <div>
                     <span>React Js</span> <span>CSS</span>
@@ -24,7 +27,7 @@ const Portfolio = () => {
             </div> 
           
             <div className="projBox">
-                <div className='todo-js-img'></div>
+                <img className='image' src={todoJs} alt="" />
                 <p>Todo App</p>
                 <div>
                     <span>Javascript</span> <span>Bootstrap</span>

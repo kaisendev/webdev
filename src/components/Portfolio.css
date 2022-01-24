@@ -9,6 +9,20 @@
 
 }
 
+.projBox {
+    background:rgb(32,33,36);
+    border-radius: 2px;
+    width: 300px;  
+    margin: 0 1rem 1rem 1rem;
+}
+
+.projBox .image {
+    width: 100%;
+    object-fit:cover;
+    object-position: center center;
+    border-radius: 2px;
+}
+
 .projBox span {
     background: royalblue;
     padding: 0.5rem;
@@ -34,14 +48,11 @@
     font-weight: bold;
 }
 
-.projBox {
-    background:rgb(32,33,36);
-    border-radius: 2px;
-    width: 400px;  
-    margin: 0 1rem 1rem 1rem;
+@media (min-width: 300px){ 
+  
 }
 
-.todo-fb-img{
+/*.todo-fb-img{
     background: url("../images/todo-fb-img.png") no-repeat;
     background-size:100%;
     object-fit: cover;
@@ -70,8 +81,4 @@
     height: 250px;
     margin-bottom: 6px;
     border-radius: 2px;
-}
-
-@media (min-width: 300px){ 
-  
-}
+}*/

@@ -3,11 +3,21 @@ import './Portfolio.css'
 import todoFirebase from "../images/todo-fb-img.png"
 import todoReact from "../images/todo-react-img.png"
 import todoJs from "../images/todo-js-img.png"
+import movieApp from "../images/movie-app.png"
 
 const Portfolio = () => {
     return ( 
         
         <div className="projContainer">  
+            <div className="projBox">
+                <img className='image' src={movieApp} alt="" />
+                <p>Movie App</p>
+                <div>
+                    <span>React Js</span> <span>OMDB API</span> <span>CSS</span>
+                </div>
+                <a className="projDiv" href="https://kaisendev.github.io/movieapp/" target="_blank" rel="noreferrer">Live</a>
+            </div>    
+
             <div className="projBox">
                 <img className='image' src={todoFirebase} alt="" />
                 <p>Todo App</p>

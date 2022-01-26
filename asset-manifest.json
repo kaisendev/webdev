@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/webdev/static/css/main.48ddfd91.css",
-    "main.js": "/webdev/static/js/main.e40979b8.js",
+    "main.js": "/webdev/static/js/main.15354dac.js",
+    "static/media/movie-app.png": "/webdev/static/media/movie-app.3b53ca8abcf2dae507ed.png",
     "static/media/sql.png": "/webdev/static/media/sql.4c7f5194d37800f70579.png",
     "static/media/todo-react-img.png": "/webdev/static/media/todo-react-img.005e3eced30d8394024f.png",
     "static/media/todo-fb-img.png": "/webdev/static/media/todo-fb-img.d9b4ce766d3d3608fde1.png",
@@ -9,10 +10,10 @@
     "static/media/csharp.png": "/webdev/static/media/csharp.d683d29bb589c5fda9be.png",
     "index.html": "/webdev/index.html",
     "main.48ddfd91.css.map": "/webdev/static/css/main.48ddfd91.css.map",
-    "main.e40979b8.js.map": "/webdev/static/js/main.e40979b8.js.map"
+    "main.15354dac.js.map": "/webdev/static/js/main.15354dac.js.map"
   },
   "entrypoints": [
     "static/css/main.48ddfd91.css",
-    "static/js/main.e40979b8.js"
+    "static/js/main.15354dac.js"
   ]
 }
